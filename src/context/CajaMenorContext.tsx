@@ -551,7 +551,7 @@ export const CajaMenorProvider: React.FC<{ children: React.ReactNode }> = ({ chi
       version: '1.0',
       exportedAt: new Date().toISOString(),
       entity: 'Corporación Social Somos Uno',
-      platform: 'CajaUno Digital',
+      platform: 'CajaUno@social.CS',
       fixedFundTotal: FIXED_FUND_TOTAL,
       maxPurchaseLimit: MAX_PURCHASE_LIMIT,
       requests,
@@ -566,7 +566,7 @@ export const CajaMenorProvider: React.FC<{ children: React.ReactNode }> = ({ chi
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `CajaUno_SomosUno_Backup_${new Date().toISOString().slice(0, 10)}.json`;
+    a.download = `CajaUno_social_CS_Backup_${new Date().toISOString().slice(0, 10)}.json`;
     a.click();
     URL.revokeObjectURL(url);
   };

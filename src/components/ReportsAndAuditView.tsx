@@ -65,7 +65,7 @@ export const ReportsAndAuditView: React.FC<ReportsAndAuditViewProps> = ({
     link.setAttribute('href', url);
     link.setAttribute(
       'download',
-      `Informe_CajaMenor_SomosUno_${new Date().toISOString().slice(0, 10)}.csv`
+      `Informe_CajaUno_social_CS_${new Date().toISOString().slice(0, 10)}.csv`
     );
     link.click();
     URL.revokeObjectURL(url);

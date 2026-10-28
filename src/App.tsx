@@ -93,10 +93,10 @@ function MainAppContent() {
       <footer className="no-print bg-white border-t border-slate-200 py-6 px-6 text-xs text-slate-500">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <span className="w-5 h-5 rounded-md bg-emerald-600 text-white font-black text-xs flex items-center justify-center">
-              U
+            <span className="w-5 h-5 rounded-md bg-slate-900 border border-slate-700 text-emerald-400 font-mono font-bold text-[10px] flex items-center justify-center">
+              @
             </span>
-            <span className="font-bold text-slate-800">CajaUno Digital</span>
+            <span className="font-bold text-slate-800 font-mono">CajaUno@social.CS</span>
             <span>·</span>
             <span>Corporación Social Somos Uno</span>
             <span>·</span>

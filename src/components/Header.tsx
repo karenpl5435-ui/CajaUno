@@ -101,17 +101,17 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="flex items-center gap-3 shrink-0">
           <button
             onClick={() => setActiveTab('dashboard')}
-            className="flex items-center gap-2 text-left group"
+            className="flex items-center gap-2.5 text-left group"
           >
-            <div className="w-8 h-8 rounded-lg bg-emerald-600 flex items-center justify-center text-white font-black text-base shadow-xs group-hover:bg-emerald-700 transition-colors">
-              U
+            <div className="w-9 h-9 rounded-xl bg-slate-900 border border-slate-700 flex items-center justify-center text-emerald-400 font-mono font-bold text-sm shadow-xs group-hover:border-emerald-500 transition-all">
+              @
             </div>
             <div>
-              <span className="text-lg font-extrabold tracking-tight text-slate-900 group-hover:text-emerald-700 transition-colors block leading-tight">
-                CajaUno
+              <span className="text-base font-extrabold tracking-tight text-slate-900 group-hover:text-emerald-700 transition-colors block leading-tight font-mono">
+                CajaUno<span className="text-emerald-600">@social.CS</span>
               </span>
               <span className="text-[10px] text-slate-500 block -mt-0.5 font-medium">
-                Gestión de Caja Menor
+                Caja Menor · Corporación Social Somos Uno
               </span>
             </div>
           </button>
